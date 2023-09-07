@@ -26,7 +26,7 @@ const MyForm = ({ onSubmit }) => {
     <Formik
       initialValues={{
         name: '',
-        number: '',
+        number: '+380',
       }}
       validationSchema={formSchema}
       onSubmit={(values, actions) => {
